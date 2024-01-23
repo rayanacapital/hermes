@@ -1,11 +1,12 @@
 {
   "name": "hermes",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:rayanacapital/hermes.git",
   "author": "Rayana <rayanacapital@gmail.com>",
   "license": "MPL-2.0",
-  "private": true,
   "engines": {
     "node": ">=18"
   },
