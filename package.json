@@ -11,6 +11,10 @@
   "engines": {
     "node": ">=18"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "precommit": "lint-staged",
