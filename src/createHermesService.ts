@@ -94,7 +94,7 @@ export class HermesService {
       const n = ms - interval;
 
       if (n > 2000) {
-        debug('Tardis-machine server event loop blocked for %d ms.', Math.round(n));
+        debug('Hermes server event loop blocked for %d ms.', Math.round(n));
       }
 
       start = process.hrtime();
