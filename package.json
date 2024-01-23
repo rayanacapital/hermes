@@ -9,6 +9,13 @@
   "engines": {
     "node": ">=18"
   },
+  "scripts": {
+    "build": "tsc",
+    "precommit": "lint-staged",
+    "prepare": "npm run build",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
+  },
   "devDependencies": {
     "@types/node": "^20.11.5",
     "@types/ws": "^8.5.10",
@@ -22,7 +29,10 @@
     ]
   },
   "dependencies": {
+    "@types/debug": "^4.1.12",
+    "debug": "^4.3.4",
     "find-my-way": "^8.1.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.10.0"
   }
 }
