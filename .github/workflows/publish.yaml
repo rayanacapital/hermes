@@ -37,3 +37,8 @@ jobs:
         run: git push
         env:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Package
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
