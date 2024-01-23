@@ -1,0 +1,9 @@
+{
+  "name": "hermes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rayanacapital/hermes.git",
+  "author": "Rayana <rayanacapital@gmail.com>",
+  "license": "MPL2",
+  "private": true
+}
