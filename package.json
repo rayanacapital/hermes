@@ -1,6 +1,6 @@
 {
   "name": "@rayanacapital/hermes",
-  "version": "1.0.0",
+  "version": "v1.0.2",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
