@@ -28,7 +28,7 @@ jobs:
         run: yarn
 
       - name: Configure Git
-        run: git config --global user.name "GitHub Release Bot"
+        run: git config --global user.name "GitHub Release Bot" && git config --global user.email "rayana@rayana.trade"
 
       - name: Update package version
         run: yarn version --new-version ${{ github.event.release.tag_name }}
