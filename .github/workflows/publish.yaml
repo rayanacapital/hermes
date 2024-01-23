@@ -31,7 +31,7 @@ jobs:
         run: git config --global user.name "GitHub Release Bot"
 
       - name: Update package version
-        run: yarn version ${{ github.event.release.tag_name }}
+        run: yarn version --new-version ${{ github.event.release.tag_name }}
 
       - name: Push Version Changes To GitHub
         run: git push
